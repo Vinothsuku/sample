@@ -8,8 +8,5 @@ import seaborn as sns
 import re
 from pandas.api.types import is_numeric_dtype, is_string_dtype, is_datetime64_any_dtype, is_bool_dtype, is_float_dtype
 
-def main():
-	st.write("Hello")
-
-if __name__ == "__main__":
-    main()
+st.write("Hello")
+st.markdown("Welcome")
